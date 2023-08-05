@@ -1,0 +1,25 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: rgb(191, 230, 247);
+}
+
+#projects {
+  background-color: rgb(191, 230, 247);
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.jumbotron img {
+  animation: animasi 1s;
+}
+
+@keyframes animasi {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
