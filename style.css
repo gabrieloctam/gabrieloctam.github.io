@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
 }
+body {
+  overflow-x: hidden;
+}
 .jumbotron {
   padding-top: 5rem;
   background-color: rgb(191, 230, 247);
