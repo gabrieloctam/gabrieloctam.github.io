@@ -2,24 +2,38 @@
   padding: 0;
   margin: 0;
 }
-body {
-  /* overflow-x: hidden; */
+/* Navbar */
+.navbar .darktheme {
+  border-radius: 20px;
 }
+.nav-link {
+  margin-right: 20px;
+}
+
+/* Jumbotron */
 .jumbotron {
   padding-top: 5rem;
   background-color: rgb(191, 230, 247);
 }
+.jumbotron img {
+  animation: animasi 1s;
+}
 
+/* Project */
 #projects {
   background-color: rgb(191, 230, 247);
+}
+.card {
+  opacity: 1;
+  transition: 0.7s;
+}
+.card:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
 }
 
 section {
   padding-top: 5rem;
-}
-
-.jumbotron img {
-  animation: animasi 1s;
 }
 
 @keyframes animasi {
